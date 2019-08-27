@@ -55,7 +55,7 @@ noremap J 5j
 noremap - Nzz
 noremap = nzz
 
-inoremap <C-i> <ESC>
+inoremap <S-o> <ESC>
 
 
 filetype plugin indent on
@@ -123,7 +123,7 @@ map tt :NERDTreeToggle<CR>
 " ===  undotree
 " ===
 let g:undotree_DiffAutoOpen = 0
-map O :UndotreeToggle<CR>
+map T :UndotreeToggle<CR>
 
 
 " ===
