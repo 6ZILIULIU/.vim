@@ -55,7 +55,7 @@ noremap J 5j
 noremap - Nzz
 noremap = nzz
 
-inoremap <S-o> <ESC>
+"inoremap <space><space> <ESC>
 
 
 filetype plugin indent on
