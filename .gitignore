@@ -1,3 +1,5 @@
 autoload
 plugged
-
+plugin
+vim-table-mode.vim
+doc

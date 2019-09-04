@@ -60,7 +60,16 @@ noremap = nzz
 
 filetype plugin indent on
 filetype on
+"补全双引号
+inoremap "" "" <++><Esc>F"i
+inoremap '' '' <++><Esc>F'i
+inoremap << <> <++><Esc>F>i
+inoremap (( () <++><Esc>F)i
+inoremap {{ {} <++><Esc>F}i
 
+
+source ~/.vim/mdrc.vim
+source ~/.vim/vim-table-mode.vim
 
 "call plug#begin('~/.vim/plugged')
 "
@@ -94,7 +103,7 @@ Plug 'connorholyday/vim-snazzy'
 
 Plug 'scrooloose/nerdtree'
 
-Plug 'ycm-core/YouCompleteMe'
+"Plug 'ycm-core/YouCompleteMe'
 
 Plug 'dense-analysis/ale'
 
@@ -138,3 +147,4 @@ map T :UndotreeToggle<CR>
 "let g:ycm_use_clangd=0
 "let g:ycm_python_interrupt_path = "";
 "let g:ycm_python_binary_path = "";
+
